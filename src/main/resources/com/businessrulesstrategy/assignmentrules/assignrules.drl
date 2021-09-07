@@ -9,5 +9,5 @@ rule "High priority to Admin"
            Task(priority > 6, priority < 50)
     then
            System.out.println("Admin gets high priority tasks");
-           insert(new Assignment("rhpamAdmin"));
+           insert(new Assignment("garanti1"));
 end
