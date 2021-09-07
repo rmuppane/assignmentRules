@@ -1,2 +1,13 @@
 package com.businessrulesstrategy.assignmentrules;
 
+import org.kie.api.task.model.Task;
+import org.kie.internal.task.api.assignment.Assignment;
+
+
+rule "High priority to Admin"
+    when
+           Task(priority > 6, priority < 50)
+    then
+           System.out.println("Admin gets high priority tasks");
+           insert(new Assignment("admin"));
+end
