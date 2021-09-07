@@ -11,11 +11,6 @@
   <dependencies>
     <dependency>
       <groupId>org.kie</groupId>
-      <artifactId>kie-api</artifactId>
-      <version>7.59.0.Final</version>
-    </dependency>
-    <dependency>
-      <groupId>org.kie</groupId>
       <artifactId>kie-internal</artifactId>
       <version>7.52.0.Final-redhat-00007</version>
       <scope>provided</scope>
